@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------------------------- ----------------NAv-bar------------------------------------------------ */
+
+.navbar {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: rgba(250, 174, 33, 0.788) !important;
+
+}
+
+.nav-link a {
+    font-size: 14px;
+    font-weight: 700
+}
+
+.dropdown-item:hover {
+    color: rgba(250, 174, 33, 0.788) !important;
+
+}
+
+.dropdown-item {
+    color: black !important;
+    background-color: white !important;
+    font-weight: 500 !important;
+}
+
+.navbar {
+    height: auto;
+
+}
+
+.navbar-brand img {
+    height: 80px;
+    width: fit-content;
+}
+
+/*-----------------------------------------navbar end-----------------------------------------------------------*/
+
+/*----------------------------------footer start-------------------------------------------------------------*/
+footer {
+    font-family: 'Poppins', sans-serif;
+}
+
+footer img {
+    height: 100px;
+    width: fit-content;
+}
+
+.list-unstyled a:hover {
+    color: rgba(250, 174, 33, 0.788) !important;
+
+}
+
+
+/*--------------------------------------footer-end--------------------------------------------*/
+
+/*-------------------------------------------scroll up start--------------------------------------------------*/
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    background-image: url('../assets/top.png');
+    width: 38px;
+    height: 38px;
+}
+
+/*----------------------------------------------scroll up end---------------------------------------------------*/
+
+/*----------------------------------------------------about banner---------------------------------------*/
+h1 {
+    font-family: 'Playfair Display', serif;
+
+}
+
+h1:hover {
+    color: rgba(250, 174, 33, 0.788) !important;
+}
+
+.img-background {
+    background: url(../assets/aboutimages/tasche-trend-winter-influencer-social-media-neuhei.jpg) center/cover no-repeat;
+    /* margin-top: 10px; */
+    height: 450px;
+    width: 100%;
+}
+
+/*-----------------------------------about banner-----------------------------------------------------*/
+
+/*--------------------------------section of website-------------------------------------------------------------*/
+.card-title p {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 60px !important;
+}
+
+/*--------------------------------section-of-website-end-----------------------------------------------------------------*/
+
+/*------------------------------------------------------story-start------------------------------------*/
+.head p {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*---------------------------------------------Our-story-end--------------------------------------------------*/
+
+/*--------------------------------------bag-image-Start---------------------------------------------------------*/
+.bag-icon {
+    text-align: center;
+}
+
+.bag-icon h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+
+}
+
+.bag-icon p {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bag-icon img:hover {
+    transform: translateY(-10px);
+}
+
+.text p {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*---------------------------------------bag-image-end------------------------------------------------------------*/
+/*-------------------------------------------------------------card-start-------------------------------------*/
+.card-body img {
+    height: 150px;
+    text-align: center;
+}
+
+.card-body {
+    height: 350px;
+}
+
+.card:hover {
+    position: relative;
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 10px -5px #C4C4C4;
+}
+
+
+.card-one {
+    height: 150px;
+}
+
+.card-one:hover {
+    position: relative;
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 10px -5px #C4C4C4;
+}
+
+.card-one img {
+    height: 50px;
+}
+
+/*-------------------------------card End----------------------------------------------------------------------*/
+/*----------------------------------------------------------Team-section-Start-----------------------------------------*/
+.desc-name h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.desc-name h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.desc-main p {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.teams h1 {
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.teams-card {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+
+.team {
+    width: 19%;
+    padding: 30px 20px;
+    margin: 10px 5px;
+    text-align: center;
+    border: solid rgb(207, 203, 203) 1px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px -5px #C4C4C4;
+    transition: all 0.5s cubic-bezier(.56, -1.57, .35, 2.57);
+}
+
+.team:hover {
+    position: relative;
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 10px -5px #C4C4C4;
+}
+
+.team-picture {
+    margin: 0 auto;
+}
+
+.team-picture img {
+    width: 115px;
+    height: 115px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.team-desc {
+    margin-top: 15px;
+}
+
+.team-desc h2 {
+    font-size: 18px;
+}
+
+.team-desc h3 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.desc-name {
+    height: 85px;
+}
+
+.desc-main p {
+    font-size: 12px;
+}
+
+
+/*-------------------------------------------Teams Section-End------------------------------------------------------*/
+@media all and (max-width: 1000px) {
+    /*Banner Content*/
+ /*-------------------------------------Teams Content----------------------------------------------------*/
+    .team {
+        width: 46%;
+        margin: 15px 15px;
+    }
+
+    .team:active {
+        position: relative;
+        transform: translateY(-10px);
+        box-shadow: 0px 20px 10px -5px #C4C4C4;
+    }
+
+
+}
+
+/*------------------------------------Teams-Section-end----------------------------*/
+/*------------------------------------------------media-query--------------------------------------------------*/
+@media all and (max-width: 670px) {
+    /*---------------------------------------Teams-Content-------------------*/
+
+    .team {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+
+
+    .img {
+        display: none;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+        width: 50%;
+    }
+
+
+}
+
+/*---------------------------------------Team-End----------------------------------*/
+
+/*-----------------------------------------scroll-bar--------------------------*/
+body {
+    --sb-track-color: #ffffff;
+    --sb-thumb-color: #faae21;
+    --sb-size: 12px;
+
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+}
+
+body::-webkit-scrollbar {
+    width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 1px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 1px;
+
+}
+
+/*---------------------------------------scroll-bar-end--------------------------*/

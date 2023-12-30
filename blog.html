@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog NexTag</title>
+
+    <!-------------------------------------------------------custom css------------------------------------------------------------->
+    <link rel="stylesheet" href="./css/blog.css">
+    <!-------------------------------------------------------custom css------------------------------------------------------------->
+
+    <!-------------------------------------------------------aos link------------------------------------------------------------->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <!-------------------------------------------------------aos link------------------------------------------------------------->
+
+    <!-------------------------------------------------------favicon link------------------------------------------------------------->
+    <link rel="shortcut icon" href="./assets/logo final.png" type="image/x-icon">
+    <!-------------------------------------------------------favicon link------------------------------------------------------------->
+
+    <!-------------------------------------------------------bootstrap css link------------------------------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-------------------------------------------------------bootstrap css link------------------------------------------------------------->
+
+    <!-------------------------------------------------------fontawesome link------------------------------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-------------------------------------------------------fontawesome link------------------------------------------------------------->
+
+
+    <!-------------------------------------------------------googlefont link------------------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,800;1,900&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!-------------------------------------------------------googlefont link------------------------------------------------------------->
+
+    <!------------------------swiper-link ----------------------------------------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-----------------------------------------swiper-link-------------------------->
+
+</head>
+
+<body>
+
+
+    <!-------------------------------------------------------Navbar---------------------------------------------------------------------->
+    <header>
+        <nav class="navbar navbar-nav navbar-expand-lg navbar-light bg-white sticky-top ">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0"
+                    href="./index.html">
+                    <img src="./assets/logo final.png" alt="" class="d-inline-block">
+                    NexTag
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-auto order-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 text-uppercase active text-dark" href="./index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link mx-2 text-uppercase text-dark dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Purses
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./louisvuitton.html">Louis Vuitton</a></li>
+                                <li><a class="dropdown-item" href="./gucci.html">Gucci</a></li>
+                                <li><a class="dropdown-item" href="./prada.html">Prada</a></li>
+                                <li><a class="dropdown-item" href="./chanel.html">Chanel</a></li>
+                                <li><a class="dropdown-item" href="./fendi.html">Fendi</a></li>
+                                <li><a class="dropdown-item" href="./aldo.html">Aldo</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 text-uppercase text-dark" href="./wallet.html">Wallets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 text-uppercase text-dark" href="./blog.html">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 text-uppercase text-dark" href="./about.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 text-uppercase text-dark" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 text-dark" href="./cart.html"><i
+                                    class="fas fa-shopping-cart me-1"></i>
+                                Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 text-dark" href="./signuplogin.html"><i
+                                    class="fas fa-user-circle me-1"></i>Register/SignIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-------------------------------------------------------Navbar---------------------------------------------------------------------->
+
+    <!-------------------------------------------------------blog banner------------------------------------------------------------------>
+    <div class="text-center justify-content-center align-items-center">
+        <h1 data-aos="fade-bottom">Blogs</h1>
+    </div>
+    <div class="container-fluid text-center img-background mt-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <div
+                    class="row d-flex align-items-center justify-content-center text-center justify-content-lg-start text-lg-start">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------------blog banner---------------------------------------------------------------------->
+
+
+    <!-------------------------------------------------------brand collection---------------------------------------------------------------------->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 card-collection">
+                <h1 class="text-center mt-5 py-3" data-aos="fade-bottom">New Collection</h1>
+                <img src="./assets/blogimages/collection image.jpg" alt="" data-aos="fade-right" />
+                <p class="mt-5 px-2" data-aos="fade-right">
+                    Introducing our brand new purse collection! Elevate your style with the latest trends and
+                    premium craftsmanship. From sleek and sophisticated designs to bold and vibrant options, our
+                    collection offers a wide range of choices to suit your fashion needs. Discover your perfect
+                    purse today and make a statement.
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 card-brand">
+                <h1 class="text-center mt-5 py-3" data-aos="fade-bottom">Top Brand</h1>
+                <img src="./assets/blogimages/brand image.jpg" alt="" data-aos="fade-right" />
+                <p class="mt-5 px-3" data-aos="fade-right">
+                    Discover luxury and style with our exquisite collection of designer purses. Crafted with
+                    precision and attention to detail, our brand offers a range of elegant and timeless purses
+                    to
+                    elevate your fashion statement. Explore our curated selection to find the perfect accessory
+                    that
+                    complements your unique personality and taste.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------------------------brand collection------------------------------------------------------------>
+
+    <!-------------------------------------------------------swiper---------------------------------------------------------------------->
+    <div class="container mb-5">
+        <div class="header text-center">
+            <h1 class="mb-5 py-2" data-aos="fade-bottom">Popular Post</h1>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper mt-5 mb-5">
+                <div class="swiper-slide ">
+                    <div class="col-md-2 col-lg-2-col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/blogimages/swipper image1.jpg"
+                                class="card-img-top" alt="...">
+                            <span class="mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </span>
+                            <div class="card-body">
+                                <p class="card-text">Gucci purses exude elegance and prestige. Meticulously crafted with
+                                    luxurious materials, they blend timeless design with modern flair. A symbol of
+                                    sophistication and a coveted fashion statement
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="col-md-2 col-lg-2-col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/blogimages/swiper image2.jpg"
+                                class="card-img-top" alt="...">
+                            <span class="mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </span>
+                            <div class="card-body">
+                                <p class="card-text">Chanel purses are the epitome of timeless luxury. Exquisite
+                                    craftsmanship, iconic quilting, and the renowned double-C logo make them a symbol of
+                                    classic sophistication and high fashion.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide ">
+                    <div class="col-md-2 col-lg-2-col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/blogimages/swiper image3.jpg"
+                                class="card-img-top" alt="...">
+                            <span class="mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </span>
+                            <div class="card-body">
+                                <p class="card-text">Louis Vuitton, a pioneer in luxury fashion, offers iconic
+                                    monogrammed handbags and luggage. Known for craftsmanship and status, it symbolizes
+                                    opulence and enduring style. A timeless, high-end brand.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="col-md-4 col-lg-4-col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/blogimages/swiper image4.jpg"
+                                class="card-img-top" alt="...">
+                            <span class="mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </span>
+                            <div class="card-body">
+                                <p class="card-text">Fendi purses are a blend of Italian craftsmanship and bold
+                                    innovation. Unique designs, quality materials, and the iconic double F logo
+                                    symbolize chic elegance, making them a coveted fashion statement.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="col-md-4 col-lg-4-col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/blogimages/swiper image5.jpg"
+                                class="card-img-top" alt="...">
+                            <span class="mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </span>
+                            <div class="card-body">
+                                <p class="card-text">Aldo purses offer affordable style with trendy designs. While not
+                                    luxury, they provide a range of fashionable options for everyday use, making them a
+                                    budget-friendly choice for many shoppers.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="col-md-4 col-lg-4-col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/blogimages/swipwer image6.jpg"
+                                class="card-img-top" alt="...">
+                            <span class="mt-2">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </span>
+                            <div class="card-body">
+                                <p class="card-text">Prada purses are the epitome of understated luxury. Crafted with
+                                    precision and timeless elegance, they feature the iconic triangular logo and are
+                                    revered for their quality, sophistication, and status
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!-------------------------------------------------------swiper---------------------------------------------------------------------->
+
+    <!-------------------------------------------------------carousel-------------------------------------------------------------------->
+    <div class="container mb-5">
+        <div class="header text-center">
+            <h1 class="mb-5 py-4" data-aos="fade-bottom">Customer Says</h1>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide text-center carousel-dark"
+            data-bs-target="#carouselExampleControls">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="rounded-circle shadow-1-strong mb-4" src="./assets/blogimages/carousel img.png" alt=""
+                        style="width: 150px;" />
+                    <div class=" d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <h5 class="mb-3">Alice</h5>
+                            <p class="text-muted">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                "Absolutely in love with my new purse! The quality is outstanding, and the design is so
+                                chic. A perfect addition to my collection."
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="far fa-star fa-solid"></i></li>
+                        <li><i class="far fa-star fa-solid"></i></li>
+                    </ul>
+                </div>
+                <div class="carousel-item">
+                    <img class="rounded-circle shadow-1-strong mb-4" src="./assets/blogimages/carousel img2.png" alt=""
+                        style="width: 150px;" />
+                    <div class="d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <h5 class="mb-3">Anna Smith</h5>
+
+                            <p class="text-muted">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                "Impressed with the durability of my Aldo purse. It's not just stylish but also
+                                practical great compartments for organization. Worth every penny!"
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="far fa-star fa-solid"></i></li>
+                    </ul>
+
+                </div>
+                <div class="carousel-item">
+                    <img class="rounded-circle shadow-1-strong mb-4" src="./assets/blogimages/carousel img3.png" alt=""
+                        style="width: 150px;" />
+                    <div class="d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <h5 class="mb-3">Amelia</h5>
+
+                            <p class="text-muted">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                "Prada purse from the Black Friday sale exceeded my expectations. The craftsmanship is
+                                superb, and it's a timeless piece that elevates any outfit."
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="far fa-star fa-solid"></i></li>
+                        <li><i class="far fa-star fa-solid"></i></li>
+                    </ul>
+                </div>
+                <div class="carousel-item">
+                    <img class="rounded-circle shadow-1-strong mb-4" src="./assets/blogimages/carousel img4.png" alt=""
+                        style="width: 150px;" />
+                    <div class="d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <h5 class="mb-3">Sophia</h5>
+
+                            <p class="text-muted">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                "The Fendi purse I got on Black Friday is a showstopper. The unique design and quality
+                                make it stand out. Proud to carry such a stylish piece!
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="far fa-star fa-solid"></i></li>
+                    </ul>
+                </div>
+                <div class="carousel-item">
+                    <img class="rounded-circle shadow-1-strong mb-4" src="./assets/blogimages/carousel img5.png" alt=""
+                        style="width: 150px;" />
+                    <div class="d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <h5 class="mb-3">Hannah</h5>
+
+                            <p class="text-muted">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                "Channel purse's Black Friday deal was a steal! The iconic design and attention to
+                                detail showcase why Chanel is a top-tier brand. Very satisfied with my purchase."
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="fas fa-star fa-solid"></i></li>
+                        <li><i class="far fa-star fa-solid"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-------------------------------------------------------carousel---------------------------------------------------------------------->
+
+    <!-------------------------------------------------------footer---------------------------------------------------------------------->
+    <footer>
+        <div class="container-fluid mt-5">
+            <div class="row text-dark g-4">
+                <div class="col-md-6 col-lg-3 p-1">
+                    <a class="text-uppercase text-decoration-none brand text-dark m-1" href="./index.html">
+                        <img src="./assets/logo final.png" alt="" class="d-inline-block">NexTag</a>
+                    <p class="text-dark m-3">Elevate Your Style with Nextag Purses and Wallets – Timeless Elegance,
+                        Unmatched
+                        Quality.
+                    </p>
+                </div>
+
+                <div class="col-md-6 col-lg-3 p-1">
+                    <h5 class="fw-light">Sitemap</h5>
+                    <ul class="list-unstyled">
+                        <li class="my-3">
+                            <a href="./index.html" class="text-dark text-decoration-none">
+                                Home
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="./blog.html" class="text-dark text-decoration-none">
+                                Blogs
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="./about.html" class="text-dark text-decoration-none">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="./contact.html" class="text-dark text-decoration-none">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3 p-1">
+                    <h5 class="fw-light">Purses Brands</h5>
+                    <ul class="list-unstyled">
+                        <li class="my-3">
+                            <a href="./louisvuitton.html" class="text-dark text-decoration-none">
+                                Louis Vuitton
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="./gucci.html" class="text-dark text-decoration-none">
+                                Gucci
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="./prada.html" class="text-dark text-decoration-none">
+                                Prada
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="./chanel.html" class="text-dark text-decoration-none">
+                                Channel
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="./fendi.html" class="text-dark text-decoration-none">
+                                Fendi
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="./aldo.html" class="text-dark text-decoration-none">
+                                Aldo
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3 p-1">
+                    <h5 class="fw-light">Wallets</h5>
+                    <ul class="list-unstyled">
+                        <li class="my-3">
+                            <a href="./wallet.html" class="text-dark text-decoration-none">
+                                Women's Collection
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="./wallet.html" class="text-dark text-decoration-none">
+                                Men's Collection
+                            </a>
+                        </li>
+                    </ul>
+                    <h5 class="fw-light mb-3">Follow Us</h5>
+                    <div>
+                        <ul class="list-unstyled d-flex">
+                            <li>
+                                <a href="https://www.facebook.com/yournexthandbag/" target="_blank"
+                                    class="text-dark text-decoration-none fs-4 me-4">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/c/alltheprettypurses" target="_blank"
+                                    class="text-dark text-decoration-none fs-4 me-4">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/thenextbag/?hl=en" target="_blank"
+                                    class="text-dark text-decoration-none fs-4 me-4">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.pinterest.com/search/pins/?q=Purses&rs=typed" target="_blank"
+                                    class="text-dark text-decoration-none fs-4 me-4">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" container-fluid text-center text-dark col-md-12 col-sm-12 col-lg-12"
+            style="background-color:rgba(250, 174, 33, 0.788) !important; ;">
+            <p style="margin-bottom: 0rem !important">&copy Copyright NexTag2023</p>
+        </div>
+    </footer>
+    <!-------------------------------------------------------footer---------------------------------------------------------------------->
+
+
+    <!-------------------------------------------------------bootstrap js link---------------------------------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-------------------------------------------------------bootstrap js link---------------------------------------------------------------->
+
+    <!-------------------------------------------------------jquery cdn ---------------------------------------------------------------->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-------------------------------------------------------jquery cdn ---------------------------------------------------------------->
+
+    <!-------------------------------------------------------jquery scrollup ---------------------------------------------------------------->
+    <script src="./js/script.js"></script>
+    <!-------------------------------------------------------jquery scrollup ---------------------------------------------------------------->
+
+    <!-------------------------------------------------------aos script------------------------------------------------------------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@next/dist/aos.js"></script>
+    <script>
+
+        AOS.init({
+            offset: 200,
+            duration: 300
+        });
+
+
+    </script>
+    <!-------------------------------------------------------aos script------------------------------------------->
+
+    <!-------------------------------------------------------jquery scroll up script---------------------------------------------------------------->
+    <script>
+        $(function () {
+            $.scrollUp({
+                scrollImg: true,
+            });
+        });
+    </script>
+    <!-------------------------------------------------------jquery scroll up script---------------------------------------------------------------->
+
+    <!-- -----------------------------------------swiper-link-------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spacebetween: 30,
+            autoplay: {
+                delay: 2500,
+                disableInteraction: false
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+    <!--------------------------swiper-script-end----------------------------->
+
+
+
+</body>
+
+</html>

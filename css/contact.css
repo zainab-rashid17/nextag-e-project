@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*-------------------------------------navbar-section---------------------------------*/
+.navbar {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: rgba(250, 174, 33, 0.788) !important;
+
+}
+
+.nav-link a {
+  font-size: 14px;
+  font-weight: 700
+}
+
+.dropdown-item:hover {
+  color: rgba(250, 174, 33, 0.788) !important;
+
+}
+
+.dropdown-item {
+  color: black !important;
+  background-color: white !important;
+  font-weight: 500 !important;
+}
+
+.navbar {
+  height: auto;
+
+}
+
+.navbar-brand img {
+  height: 80px;
+  width: fit-content;
+}
+
+/*------------------------------------navbar end-----------------------------------------*/
+
+/*----------------------------------footer start----------------------------------------*/
+footer {
+  font-family: 'Poppins', sans-serif;
+}
+
+footer img {
+  height: 100px;
+  width: fit-content;
+}
+
+.list-unstyled a:hover {
+  color: rgba(250, 174, 33, 0.788) !important;
+
+}
+
+/*---------------------------footer end------------------------------------------------*/
+
+/*-------------------------------scroll up start-----------------------------------------*/
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  background-image: url('../assets/top.png');
+  width: 38px;
+  height: 38px;
+}
+
+/*---------------------------------------scroll up end---------------------------------*/
+/*--------------------------------banner-section------------------------------------*/
+.bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s1.r29static.com/bin/public/7bf/0,0,2000,1050/x,80/1608057/image.jpg);
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.head {
+  font-size: 60px;
+  color: white;
+  padding-top: 30px;
+  font-family: 'Playfair Display', serif;
+}
+
+/*-----------------------banner-section-end---------------------------------------*/
+/*----------------------------------------form-section-----------------------------*/
+.para {
+  color: aliceblue;
+  font-size: larger;
+  font-family: 'Playfair Display', serif;
+}
+
+.fa-solid {
+  padding: 8px;
+  font-size: 20px;
+
+}
+
+.d-flex p {
+  margin-left: 20px;
+  font-family: 'Playfair Display', serif;
+
+  margin-top: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.d-flex a {
+  text-decoration: none;
+}
+
+/*-----------------------------form-section-end-------------------------------------*/
+/*--------------------------------categories-section----------------------------*/
+.order {
+  transition: all 0.7s ease-in-out;
+  font-family: 'Playfair Display', serif;
+}
+
+.order:hover {
+  box-shadow: 0px 20px 10px -5px #C4C4C4;
+  transform: translateY(-10px);
+}
+
+.container h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+.order i {
+  font-size: 30px;
+}
+
+/*------------------------categories-section-end-------------------------------------*/
+/*------------------------------------------scroll-bar-------------------------------*/
+body {
+  --sb-track-color: #ffffff;
+  --sb-thumb-color: #faae21;
+  --sb-size: 12px;
+
+  scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 1px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 1px;
+
+}
+
+/*------------------------------scroll-bar-end-----------------------------------------*/
